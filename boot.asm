@@ -20,7 +20,7 @@ ch_loop:
         hang:
         jmp     hang
 
-        msg     db 'Arranque de mi SO', 13, 10, 0
+        msg     db 'Bienvenido a VisarfiVar', 13, 10, 0
         times   510-($-$$) db 0
         db      0x55
         db      0xAA
